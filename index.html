@@ -26,10 +26,10 @@ background-size: 100% 100%;
 		var bp = document.createElement('script');
 		var curProtocol = window.location.protocol.split(':')[0];
 		if (curProtocol === 'https') {
-			bp.src = 'https://github.com/HHH18010509/Funny-Virus/blob/master/JS/Push1.js';
+			bp.src = 'JS/Push1.js';
 		}
 		else {
-			bp.src = 'https://github.com/HHH18010509/Funny-Virus/blob/master/JS/Push2.js';
+			bp.src = 'JS/Push2.js';
 		}
 		var s = document.getElementsByTagName("script")[0];
 		s.parentNode.insertBefore(bp, s);
@@ -40,7 +40,7 @@ background-size: 100% 100%;
 <body id="body" onLoad="init()">
 
 <script type="text/javascript" src="https://github.com/HHH18010509/Funny-Virus/blob/master/JS/ThreeCanvas.js"></script>
-<script type="text/javascript" src="https://github.com/HHH18010509/Funny-Virus/blob/master/JS/ThreeCanvas.js"></script>
+<script type="text/javascript" src="https://github.com/HHH18010509/Funny-Virus/blob/master/JS/Snow.js"></script>
 
 <script type="text/javascript">
 	var SCREEN_WIDTH = window.innerWidth;//
@@ -140,7 +140,7 @@ background-size: 100% 100%;
 		// 	touchEndX = event.touches[ 0 ].pageX ;
 		// 	touchEndY = event.touches[ 0 ].pageY ;
 	
-		// }这里存在问题
+		// }
 		var direction = event.changedTouches[ 0 ].pageX - touchStartX;
 
 		changeAndBack(touchFlag);
